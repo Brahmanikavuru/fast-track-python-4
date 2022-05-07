@@ -1,0 +1,27 @@
+1.Explain super() in the content of inheritance
+   The super() function in python makes class inheritance more manageable and extensible.The function returns a temporary object that allows reference to a parent class by the keyword super.The super() function has two major cases.
+
+2.Describe the file-handling system.
+   The key function for working with files in python is the open() function takestwo parameters; filename and mode.There are four different methods for opening a file :"r"-Read-default value,"a"-Append,"w"-Write,"x"-create.
+
+3.In python ,explain multiple inheritance?
+   When a class is derived from more than one base class it is called multiple inheritance.The derived class inherits alla the features of the base case.
+SYNTAX:
+ Class base1:
+      body of class
+ Class base 2:
+     body of class
+ Class Derived (base1,base2):
+       Body of class
+
+4.Write the MySQL query syntax for INSERT,UPDATE,and DROP?
+    Syntax for INSERT:
+      INSERT INTO TABLE NAME(column1,column2,column3.......columnN)
+     Syntax for UPDATE:
+     UPDATE table_name
+      SET column 1=value 1,column1=value2.....,columnN=value N
+      WHERE[condition];
+      DROP[TEMPORARY]TABLE[IF EXISTS]table_name[table_name][RESTRICT|CASCADE];
+
+5.Describe MongoDB's features?
+  It contains heterogeneous data.It provides high performance,availability,scalability.It supports Geospatial efficiently.It is a document oriented data is stored in BSOD  documents.It also supports multiple document ACID transition.
